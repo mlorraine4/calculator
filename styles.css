@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Digits;
+  src: url("digital-7.ttf");
+}
+/* https://www.1001fonts.com/calculator-fonts.html  */
+
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Light.ttf");
+}
+
+/* https://www.fontsquirrel.com/fonts/raleway */
+.r1 .r2 .r3 .r4 {
+  display: flex;
+  margin-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.clear {
+  margin-top: 10px;
+  margin-left: 190px;
+  background-color: #fdaed8;
+}
+
+.screen {
+  height: 120px;
+  width: 236px;
+  background-color: #c8c8c8;
+  border: 2px solid #676767;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.displayBottom {
+  font-size: 40px;
+  text-align: right;
+  font-family: Digits;
+}
+
+.displayTop {
+  margin-top: 40px;
+  text-align: right;
+  font-family: Digits;
+  font-size: 20px;
+}
+
+.calculator {
+  margin: auto;
+  width: 280px;
+  background-color: #ba85f2;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+}
+
+.operator {
+  background-color: #b9dbe6;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  box-shadow: 2px 2px #766587;
+  border-radius: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-family: "Raleway";
+}
